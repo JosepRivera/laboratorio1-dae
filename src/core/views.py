@@ -6,10 +6,9 @@ from django.views.decorators.http import require_http_methods
 import json
 from .models import Item
 
-def item_list(request):
-    """Original HTML view"""
-    items = Item.objects.all()
-    return render(request, 'core/item_list.html', {'items': items})
+def home(request):
+    """Renderiza el frontend index.html"""
+    return render(request, "index.html")
 
 # API Endpoints
 def api_items(request):
