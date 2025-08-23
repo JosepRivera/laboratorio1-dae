@@ -27,14 +27,3 @@
    ```bash
    python manage.py runserver
    ```
-
-### 2. Frontend
-
-1. Abrir otra terminal y entrar a la carpeta `frontend`.
-2. Ejecutar:
-
-   ```bash
-   start index.html
-   ```
-
----
