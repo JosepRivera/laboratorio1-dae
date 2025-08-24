@@ -8,7 +8,7 @@ from .models import Item
 
 def home(request):
     """Renderiza el frontend index.html"""
-    return render(request, "index.html")
+    return render(request, "core/item_list.html")
 
 # API Endpoints
 def api_items(request):
